@@ -1,0 +1,48 @@
+.tile {
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    font-size: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:hover {
+    cursor: pointer;
+    background-color: gray
+}
+
+.grid {
+    display: grid;
+}
+
+.board {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+
+#heading-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#reset-button {
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#winner {
+    font-size: 50px;
+}
